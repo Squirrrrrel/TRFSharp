@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>SvdProbe</AssemblyName>
+    <RootNamespace>TRF.Sharp.Bench.SvdProbe</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <!-- compiled from source so the probe can call internal helpers -->
+    <Compile Include="..\..\..\src\TRF.Sharp\Core\ThinQr.cs" Link="ThinQr.cs" />
+  </ItemGroup>
+
+</Project>

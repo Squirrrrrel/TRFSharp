@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TRF.Sharp/TRF.Sharp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TRF.Sharp.Tests/TRF.Sharp.Tests.csproj" />
+  </Folder>
+  <Folder Name="/examples/">
+    <Project Path="examples/NineParamFit/NineParamFit.csproj" />
+  </Folder>
+</Solution>

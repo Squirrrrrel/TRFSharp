@@ -1,0 +1,75 @@
+{
+  "rows": [
+    {
+      "m": 32,
+      "n": 9,
+      "residual_min": 1.4E-06,
+      "svd_min": 3.74E-05,
+      "svd_lib_min": 2.47E-05,
+      "fdjac_min": 2.31E-05,
+      "augment_min": 1E-07,
+      "scalecols_min": 8.3E-06,
+      "matvec_min": 2.6E-06
+    },
+    {
+      "m": 64,
+      "n": 9,
+      "residual_min": 2.8E-06,
+      "svd_min": 9.08E-05,
+      "svd_lib_min": 2.73E-05,
+      "fdjac_min": 4.5E-05,
+      "augment_min": 2E-07,
+      "scalecols_min": 1.65E-05,
+      "matvec_min": 9.6E-06
+    },
+    {
+      "m": 128,
+      "n": 9,
+      "residual_min": 5.7E-06,
+      "svd_min": 0.0003017,
+      "svd_lib_min": 3.32E-05,
+      "fdjac_min": 8.25E-05,
+      "augment_min": 4E-07,
+      "scalecols_min": 7.7E-06,
+      "matvec_min": 2.72E-05
+    },
+    {
+      "m": 256,
+      "n": 9,
+      "residual_min": 7.7E-06,
+      "svd_min": 0.0010908,
+      "svd_lib_min": 3.26E-05,
+      "fdjac_min": 3.33E-05,
+      "augment_min": 6E-07,
+      "scalecols_min": 4.8E-06,
+      "matvec_min": 0.0001474
+    },
+    {
+      "m": 512,
+      "n": 9,
+      "residual_min": 5.2E-06,
+      "svd_min": 0.0040567,
+      "svd_lib_min": 5.55E-05,
+      "fdjac_min": 6.6E-05,
+      "augment_min": 1.2E-06,
+      "scalecols_min": 9.7E-06,
+      "matvec_min": 3.1E-05
+    },
+    {
+      "m": 1024,
+      "n": 9,
+      "residual_min": 1.06E-05,
+      "svd_min": 0.0165214,
+      "svd_lib_min": 0.0001009,
+      "fdjac_min": 0.0001328,
+      "augment_min": 2.5E-06,
+      "scalecols_min": 1.94E-05,
+      "matvec_min": 7.15E-05
+    }
+  ],
+  "meta": {
+    "side": "csharp",
+    "iters": 400,
+    "runtime": ".NET 10.0.10"
+  }
+}

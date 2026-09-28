@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TRF.Sharp</AssemblyName>
+    <RootNamespace>TRF.Sharp</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <Version>1.0.0</Version>
+    <Description>C# port of SciPy's Trust Region Reflective (TRF) algorithm (scipy.optimize._lsq) for bounded nonlinear least-squares minimization and curve fitting.</Description>
+    <Authors>TRF.Sharp</Authors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <!-- Copy the MathNet.Numerics dependency next to TRF.Sharp.dll so the
+         output folder can also be consumed by plain file references. -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
